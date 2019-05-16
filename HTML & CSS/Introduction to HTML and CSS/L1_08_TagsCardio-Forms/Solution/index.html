@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <label for="first-name">First Name <input id="first-name" type="text" autofocus
+                    placeholder="George"></label>
+            <br><br>
+            <label for="last-name">Last Name <input id="last-name" type="text" placeholder="Davis"></label>
+            <br><br>
+            <label for="male-gender"><input id="male-gender" type="radio">Male</label>
+            <label for="female-gender"><input id="female-gender" type="radio">Female</label>
+            <label for="other-gender"><input id="other-gender" type="radio">Other</label>
+            <br><br>
+            <label for="prefered-contact-type">Prefered contact method: </label>
+            <label for="email-contact-type"><input id="email-contact-type" type="radio">Email </label>
+            <label for="phone-contact-type"><input id="phone-contact-type" type="radio"
+                    placeholder="+359885236225">Phone</label>
+            <br><br>
+            <label for="email">Email <input type="email" id="email" placeholder="your@email.com"></label>
+            <br><br>
+            <label for="phone">Phone <input type="text" id="email" placeholder="+359885236225" </label> <br><br>
+                <label for="town">Town <select id="town">
+                        <option id="town-varna" type="languages" value="Varna">Varna</option>
+                        <option id="town-plovdiv" type="languages" value="Plovdiv">Plovdiv</option>
+                        <option id="town-burgas" type="languages" value="Burgas">Burgas</option>
+                        <option id="town-sofia" type="languages" value="Sofia">Sofia</option>
+                        <option id="town-pleven" type="languages" value="Pleven">Pleven</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="age">Age <input type="number" id="age" min="18" max="70"></label>
+                <br><br>
+                <label for="programming-language">Programming Language <input type="text" list="programming-language">
+                    <datalist id="programming-language">
+                        <option id="programming-language-java" type="languages" value="Java"></option>
+                        <option id="programming-language-php" type="languages" value="PHP"></option>
+                        <option id="programming-language-csharp" type="languages" value="C#"></option>
+                        <option id="programming-language-javascript" type="languages" value="JavaScript"></option>
+                        <option id="programming-language-python" type="languages" value="Ruby"></option>
+                        <option id="programming-language-other" type="languages" value="Other"></option>
+                        <option id="town-varna" type="languages" value="Varna">Varna</option>
+                    </datalist>
+                </label>
+                <br><br>
+                <label for="more-information"><textarea id="more-information" cols="20" rows="5"
+                        placeholder="More information..."></textarea></label>
+                <br><br>
+                <label for="tos"><input type="checkbox" id="tos" value="checked"><label for="tos">I agree the Terms and
+                        Conditions</label></label>
+                <br><br>
+                <label for="submit"><input type="submit" id="submit"></label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
