@@ -1,0 +1,48 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+.line{
+    border-style: solid 2px gray;
+    max-width: 100%;
+}
+
+table, td, th{
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    width: 50em;
+}
+
+table tbody tr:hover td {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+
+
+tr:nth-child(odd) > td:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+
+
+
+blockquote{
+    border-left: 3px solid gray;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.author{
+    padding-top: 4em;
+    text-align: end;
+}
