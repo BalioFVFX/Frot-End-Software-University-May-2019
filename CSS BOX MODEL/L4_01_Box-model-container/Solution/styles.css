@@ -1,0 +1,12 @@
+.info-box{
+    max-width: 11%;
+    margin: auto;
+}
+.info-box > p{
+    margin: auto;
+    display: inline-block;
+    padding: 0.8rem;
+    background-color: rgb(64, 224, 208);
+    border-radius: 10px;
+    border: 5px solid black;
+}
