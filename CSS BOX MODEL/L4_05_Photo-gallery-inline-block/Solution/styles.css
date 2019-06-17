@@ -1,0 +1,26 @@
+html{
+    background-color: rgb(238, 238, 238);
+    align-content: center;
+    margin: auto;
+    width: 50%;
+}
+img{
+    border: 0.4rem solid black;
+    width: 200px;
+    margin: 0px;
+    padding: 5px;
+    display: inline-block;
+}
+ul{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    max-width: 70%;
+}
+li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2em;
+
+}
