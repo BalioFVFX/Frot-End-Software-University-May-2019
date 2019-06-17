@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(238,238,238);
+}
+.content{
+    display: inline-block;
+    width: 100%;
+}
+
+article {
+    margin-left: 4em;
+    max-width: 60%;
+    display: inline-block;
+}
+article img {
+    max-width:26%;
+    display: inline-block;
+}
+
+aside{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
